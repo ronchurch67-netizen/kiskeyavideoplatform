@@ -1,0 +1,53 @@
+{
+  "app": { "name": "Video IA" },
+  "nav": { "dashboard": "Panel", "createVideo": "Crear Video" },
+  "dashboard": {
+    "title": "Tus proyectos de video",
+    "empty": "Todavía no tienes proyectos. Comienza uno en la página Crear Video.",
+    "loading": "Cargando...",
+    "status": {
+      "pending": "Pendiente",
+      "script_ready": "Guion listo",
+      "processing": "Generando",
+      "completed": "Listo",
+      "failed": "Fallido"
+    }
+  },
+  "projectDetail": {
+    "noVideo": "El video todavía no está listo para este proyecto."
+  },
+  "auth": {
+    "loginTitle": "Iniciar sesión",
+    "registerTitle": "Crear una cuenta",
+    "emailLabel": "Correo electrónico",
+    "passwordLabel": "Contraseña",
+    "loginButton": "Iniciar sesión",
+    "registerButton": "Crear cuenta",
+    "logoutButton": "Cerrar sesión",
+    "noAccount": "¿No tienes cuenta?",
+    "registerLink": "Crea una",
+    "haveAccount": "¿Ya tienes cuenta?",
+    "loginLink": "Inicia sesión"
+  },
+  "createVideo": {
+    "title": "Crear un nuevo video",
+    "promptLabel": "Idea o descripción del video",
+    "promptPlaceholder": "Escribe aquí la idea de tu video...",
+    "languageLabel": "Idioma del video",
+    "durationLabel": "Duración del video",
+    "styleLabel": "Estilo del video",
+    "secondsUnit": "segundos",
+    "styleRealistic": "Realista",
+    "styleAnimated": "Animado",
+    "styleCinematic": "Cinematográfico",
+    "styleWhiteboard": "Pizarra",
+    "planLabel": "Plan",
+    "planBasic": "Basic",
+    "planPlan2": "Plan 2",
+    "planNote": "Por ahora, elige un plan manualmente — más adelante, vendrá automáticamente de la cuenta del usuario.",
+    "generateButton": "Generar Video",
+    "generating": "Generando...",
+    "generatingHint": "Estamos preparando tu video — esto puede tardar varios minutos, ten paciencia."
+  },
+  "languageSelector": { "label": "Idioma" }
+}

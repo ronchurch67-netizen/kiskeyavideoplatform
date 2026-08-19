@@ -1,0 +1,53 @@
+{
+  "app": { "name": "Vidéo IA" },
+  "nav": { "dashboard": "Tableau de bord", "createVideo": "Créer une vidéo" },
+  "dashboard": {
+    "title": "Vos projets vidéo",
+    "empty": "Vous n'avez encore aucun projet. Commencez-en un sur la page Créer une vidéo.",
+    "loading": "Chargement...",
+    "status": {
+      "pending": "En attente",
+      "script_ready": "Script prêt",
+      "processing": "Génération en cours",
+      "completed": "Terminé",
+      "failed": "Échec"
+    }
+  },
+  "projectDetail": {
+    "noVideo": "La vidéo n'est pas encore prête pour ce projet."
+  },
+  "auth": {
+    "loginTitle": "Connexion",
+    "registerTitle": "Créer un compte",
+    "emailLabel": "E-mail",
+    "passwordLabel": "Mot de passe",
+    "loginButton": "Se connecter",
+    "registerButton": "Créer un compte",
+    "logoutButton": "Se déconnecter",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "registerLink": "Créez-en un",
+    "haveAccount": "Vous avez déjà un compte ?",
+    "loginLink": "Connectez-vous"
+  },
+  "createVideo": {
+    "title": "Créer une nouvelle vidéo",
+    "promptLabel": "Idée ou description de la vidéo",
+    "promptPlaceholder": "Écrivez votre idée de vidéo ici...",
+    "languageLabel": "Langue de la vidéo",
+    "durationLabel": "Durée de la vidéo",
+    "styleLabel": "Style de la vidéo",
+    "secondsUnit": "secondes",
+    "styleRealistic": "Réaliste",
+    "styleAnimated": "Animé",
+    "styleCinematic": "Cinématographique",
+    "styleWhiteboard": "Tableau blanc",
+    "planLabel": "Formule",
+    "planBasic": "Basic",
+    "planPlan2": "Plan 2",
+    "planNote": "Pour l'instant, choisissez une formule manuellement — plus tard, elle proviendra automatiquement du compte de l'utilisateur.",
+    "generateButton": "Générer la vidéo",
+    "generating": "Génération en cours...",
+    "generatingHint": "Nous préparons votre vidéo — cela peut prendre quelques minutes, merci de patienter."
+  },
+  "languageSelector": { "label": "Langue" }
+}

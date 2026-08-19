@@ -1,0 +1,276 @@
+:root {
+  --bg: #fafaf8;
+  --surface: #ffffff;
+  --ink: #1a2320;
+  --ink-soft: #5b6b66;
+  --border: #dde3df;
+  --accent: #1e8a7e;
+  --accent-ink: #ffffff;
+  font: 16px/1.6 system-ui, 'Segoe UI', Roboto, sans-serif;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101614;
+    --surface: #182220;
+    --ink: #e8efec;
+    --ink-soft: #9fb2ad;
+    --border: #2a3532;
+    --accent: #48c9b8;
+    --accent-ink: #08211d;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.app-name {
+  font-weight: 700;
+}
+
+.app-header nav {
+  display: flex;
+  gap: 16px;
+  flex: 1;
+}
+
+.app-header nav a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  padding: 6px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.app-header nav a.active {
+  color: var(--ink);
+  border-color: var(--accent);
+}
+
+main {
+  flex: 1;
+  padding: 32px 24px;
+}
+
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.page h1 {
+  font-size: 1.6rem;
+}
+
+.empty-state {
+  color: var(--ink-soft);
+}
+
+.create-video-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.create-video-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+
+.create-video-form textarea,
+.create-video-form select,
+.create-video-form input {
+  font: inherit;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.plan-picker {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin: 0;
+}
+
+.plan-picker legend {
+  padding: 0 4px;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+}
+
+.plan-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 4px;
+}
+
+.plan-option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--ink);
+  font-size: 0.94rem;
+}
+
+.field-hint {
+  margin: 10px 0 0;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+
+.create-video-form input[type='range'] {
+  accent-color: var(--accent);
+}
+
+.create-video-form button {
+  align-self: flex-start;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.create-video-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.generation-status {
+  margin-top: 18px;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+.generation-error {
+  margin-top: 18px;
+  color: #b3261e;
+  font-size: 0.92rem;
+}
+
+.video-preview {
+  margin-top: 18px;
+}
+
+.video-preview video {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.project-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-card-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.project-card-title {
+  font-weight: 500;
+}
+
+.status-badge {
+  flex: none;
+  font-size: 0.78rem;
+  padding: 3px 10px;
+  border-radius: 100px;
+  background: var(--border);
+  color: var(--ink-soft);
+}
+
+.status-badge.status-completed {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.status-badge.status-failed {
+  background: #b3261e;
+  color: #fff;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.project-idea {
+  color: var(--ink-soft);
+  margin: 12px 0 20px;
+}
+
+.logout-button {
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+.language-selector select {
+  font: inherit;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

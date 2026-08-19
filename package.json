@@ -1,0 +1,9 @@
+{
+  "name": "ai-video-platform",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:all": "npm install --prefix database && npm install --prefix services/ai-provider && npm install --prefix services/voice-provider && npm install --prefix services/video-provider && npm install --prefix backend",
+    "start": "npm start --prefix backend"
+  }
+}

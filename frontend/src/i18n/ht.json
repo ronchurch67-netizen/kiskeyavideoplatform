@@ -1,0 +1,53 @@
+{
+  "app": { "name": "Videyo AI" },
+  "nav": { "dashboard": "Tablo Bò", "createVideo": "Kreye Videyo" },
+  "dashboard": {
+    "title": "Pwojè Videyo Ou Yo",
+    "empty": "Ou poko gen okenn pwojè. Kòmanse youn nan paj Kreye Videyo a.",
+    "loading": "N ap chaje...",
+    "status": {
+      "pending": "An atant",
+      "script_ready": "Script pare",
+      "processing": "Ap jenere",
+      "completed": "Fini",
+      "failed": "Echwe"
+    }
+  },
+  "projectDetail": {
+    "noVideo": "Videyo a poko pare pou pwojè sa a."
+  },
+  "auth": {
+    "loginTitle": "Konekte",
+    "registerTitle": "Kreye yon Kont",
+    "emailLabel": "Imel",
+    "passwordLabel": "Modpas",
+    "loginButton": "Konekte",
+    "registerButton": "Kreye Kont",
+    "logoutButton": "Dekonekte",
+    "noAccount": "Ou pa gen kont?",
+    "registerLink": "Kreye youn",
+    "haveAccount": "Ou deja gen yon kont?",
+    "loginLink": "Konekte"
+  },
+  "createVideo": {
+    "title": "Kreye Nouvo Videyo",
+    "promptLabel": "Lide oswa deskripsyon videyo a",
+    "promptPlaceholder": "Ekri lide videyo w la isit la...",
+    "languageLabel": "Lang videyo a",
+    "durationLabel": "Dire videyo a",
+    "styleLabel": "Style videyo a",
+    "secondsUnit": "segond",
+    "styleRealistic": "Reyalis",
+    "styleAnimated": "Anime",
+    "styleCinematic": "Sinematografik",
+    "styleWhiteboard": "Whiteboard",
+    "planLabel": "Plan Abònman",
+    "planBasic": "Basic",
+    "planPlan2": "Plan 2",
+    "planNote": "Pou kounye a, chwazi yon plan manyèlman — pita, plan an ap soti otomatikman nan kont itilizatè a.",
+    "generateButton": "Jenere Videyo",
+    "generating": "N ap jenere...",
+    "generatingHint": "N ap prepare videyo w la — sa ka pran plizyè minit, tanpri pasyanse."
+  },
+  "languageSelector": { "label": "Lang" }
+}

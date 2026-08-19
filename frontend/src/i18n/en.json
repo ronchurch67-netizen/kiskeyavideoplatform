@@ -1,0 +1,53 @@
+{
+  "app": { "name": "AI Video" },
+  "nav": { "dashboard": "Dashboard", "createVideo": "Create Video" },
+  "dashboard": {
+    "title": "Your Video Projects",
+    "empty": "You don't have any projects yet. Start one on the Create Video page.",
+    "loading": "Loading...",
+    "status": {
+      "pending": "Pending",
+      "script_ready": "Script ready",
+      "processing": "Generating",
+      "completed": "Done",
+      "failed": "Failed"
+    }
+  },
+  "projectDetail": {
+    "noVideo": "The video isn't ready yet for this project."
+  },
+  "auth": {
+    "loginTitle": "Log In",
+    "registerTitle": "Create an Account",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "loginButton": "Log In",
+    "registerButton": "Create Account",
+    "logoutButton": "Log Out",
+    "noAccount": "Don't have an account?",
+    "registerLink": "Create one",
+    "haveAccount": "Already have an account?",
+    "loginLink": "Log in"
+  },
+  "createVideo": {
+    "title": "Create a New Video",
+    "promptLabel": "Video idea or description",
+    "promptPlaceholder": "Write your video idea here...",
+    "languageLabel": "Video language",
+    "durationLabel": "Video duration",
+    "styleLabel": "Video style",
+    "secondsUnit": "seconds",
+    "styleRealistic": "Realistic",
+    "styleAnimated": "Animated",
+    "styleCinematic": "Cinematic",
+    "styleWhiteboard": "Whiteboard",
+    "planLabel": "Plan",
+    "planBasic": "Basic",
+    "planPlan2": "Plan 2",
+    "planNote": "For now, choose a plan manually — later, the plan will come automatically from the user's account.",
+    "generateButton": "Generate Video",
+    "generating": "Generating...",
+    "generatingHint": "We're preparing your video — this can take a few minutes, please be patient."
+  },
+  "languageSelector": { "label": "Language" }
+}

@@ -1,0 +1,12 @@
+node_modules/
+**/node_modules/
+
+**/.env
+!**/.env.example
+
+database/data.sqlite*
+
+storage/videos/*
+storage/audio/*
+storage/tmp/*
+!storage/**/.gitkeep

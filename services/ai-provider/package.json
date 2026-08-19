@@ -1,0 +1,9 @@
+{
+  "name": "ai-provider",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.117.1"
+  }
+}
