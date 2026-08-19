@@ -5,11 +5,12 @@ import { promisify } from 'node:util'
 import ffmpegPath from 'ffmpeg-static'
 import { synthesizeSpeech } from '../../../services/voice-provider/elevenLabsProvider.js'
 import { generateVideoAndWait } from '../../../services/video-provider/klingProvider.js'
+import { storagePath } from '../config/env.js'
 
 const execFileAsync = promisify(execFile)
 
-const TMP_DIR = path.resolve('../storage/tmp')
-const VIDEO_DIR = path.resolve('../storage/videos')
+const TMP_DIR = storagePath('tmp')
+const VIDEO_DIR = storagePath('videos')
 
 // Video Generation Pipeline: pou chak scene, jenere vwa ak videyo an
 // paralèl posib, mare yo ansanm, epi konkatene tout scenes yo an yon sèl
